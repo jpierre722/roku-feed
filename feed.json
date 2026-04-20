@@ -1,0 +1,96 @@
+{
+  "version": "1",
+  "providerName": "HTN1",
+  "lastUpdated": "2026-04-20T00:00:00+00:00",
+  "language": "en",
+  "defaultAvailabilityCountries": ["US", "CA", "GB", "FR", "BE", "CH"],
+  "shortFormVideos": [
+    {
+      "id": "live001",
+      "title": "Regard d'Afrik TV 2",
+      "shortDescription": "Une chaîne dédiée aux enjeux sociaux, économiques et culturels du continent africain.",
+      "longDescription": "Regard d'Afrik TV 2 offers 24/7 coverage of African social, economic, and cultural issues with in-depth reporting and live debates.",
+      "thumbnail": "https://i.imgur.com/GsUWzTS.jpg",
+      "releaseDate": "2015-11-05",
+      "genres": ["News", "International"],
+      "tags": ["live", "africa", "news"],
+      "playOptions": [
+        {
+          "availabilityInfo": {
+            "country": ["US", "CA", "GB", "FR", "BE", "CH"]
+          }
+        }
+      ],
+      "content": {
+        "dateAdded": "2015-11-05T14:14:54.431Z",
+        "duration": 3600,
+        "captions": [],
+        "videos": [
+          {
+            "url": "https://edge11.vedge.infomaniak.com/livecast/ik:regarddafrik/playlist.m3u8",
+            "quality": "HD",
+            "videoType": "HLS"
+          }
+        ]
+      }
+    },
+    {
+      "id": "news001",
+      "title": "France 24 Français",
+      "shortDescription": "Chaîne d'information internationale en continu.",
+      "longDescription": "France 24 provides 24/7 international news coverage with reports, analysis, and debates from a French perspective.",
+      "thumbnail": "https://i.imgur.com/0kQKQ0F.png",
+      "releaseDate": "2015-11-05",
+      "genres": ["News", "International"],
+      "tags": ["news", "france", "international"],
+      "playOptions": [
+        {
+          "availabilityInfo": {
+            "country": ["US", "CA", "GB", "FR", "BE", "CH"]
+          }
+        }
+      ],
+      "content": {
+        "dateAdded": "2015-11-05T14:14:54.431Z",
+        "duration": 3600,
+        "captions": [],
+        "videos": [
+          {
+            "url": "https://static.france24.com/live/F24_FR_HI_HLS/live_tv.m3u8",
+            "quality": "HD",
+            "videoType": "HLS"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sports001",
+      "title": "beIN Sports XTRA",
+      "shortDescription": "Chaîne sportive internationale offrant football, sports mécaniques, tennis et compétitions mondiales.",
+      "longDescription": "beIN Sports XTRA features international football, motorsports, tennis, and major global competitions.",
+      "thumbnail": "https://i.imgur.com/8Q2xk0F.png",
+      "releaseDate": "2015-11-05",
+      "genres": ["Sports"],
+      "tags": ["sports", "football", "tennis"],
+      "playOptions": [
+        {
+          "availabilityInfo": {
+            "country": ["US", "CA", "GB", "FR", "BE", "CH"]
+          }
+        }
+      ],
+      "content": {
+        "dateAdded": "2015-11-05T14:14:54.431Z",
+        "duration": 3600,
+        "captions": [],
+        "videos": [
+          {
+            "url": "https://bein-xtra-roku.amagi.tv/playlist.m3u8",
+            "quality": "HD",
+            "videoType": "HLS"
+          }
+        ]
+      }
+    }
+  ]
+}
