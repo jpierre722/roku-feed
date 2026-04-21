@@ -12,6 +12,7 @@
       "longDescription": "Regard d'Afrik TV 2 offers 24/7 coverage of African social, economic, and cultural issues with in-depth reporting and live debates.",
       "thumbnail": "https://i.imgur.com/GsUWzTS.jpg",
       "releaseDate": "2015-11-05",
+      "category": ["Live TV"],
       "genres": ["News", "International"],
       "tags": ["live", "africa", "news"],
       "playOptions": [
@@ -41,6 +42,7 @@
       "longDescription": "France 24 provides 24/7 international news coverage with reports, analysis, and debates from a French perspective.",
       "thumbnail": "https://i.imgur.com/0kQKQ0F.png",
       "releaseDate": "2015-11-05",
+      "category": ["News"],
       "genres": ["News", "International"],
       "tags": ["news", "france", "international"],
       "playOptions": [
@@ -70,6 +72,7 @@
       "longDescription": "beIN Sports XTRA features international football, motorsports, tennis, and major global competitions.",
       "thumbnail": "https://i.imgur.com/8Q2xk0F.png",
       "releaseDate": "2015-11-05",
+      "category": ["Sports"],
       "genres": ["Sports"],
       "tags": ["sports", "football", "tennis"],
       "playOptions": [
