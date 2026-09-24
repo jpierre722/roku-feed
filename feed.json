@@ -1,99 +1,45 @@
 {
-  "version": "1",
-  "providerName": "HTN1",
-  "lastUpdated": "2026-04-20T00:00:00+00:00",
-  "language": "en",
-  "defaultAvailabilityCountries": ["US", "CA", "GB", "FR", "BE", "CH"],
-  "shortFormVideos": [
+  "providerName": "Haiti TV Network",
+  "lastUpdated": "2026-09-21T00:00:00Z",
+  "languages": [
     {
-      "id": "live001",
-      "title": "Regard d'Afrik TV 2",
-      "shortDescription": "Une chaîne dédiée aux enjeux sociaux, économiques et culturels du continent africain.",
-      "longDescription": "Regard d'Afrik TV 2 offers 24/7 coverage of African social, economic, and cultural issues with in-depth reporting and live debates.",
-      "thumbnail": "https://i.imgur.com/GsUWzTS.jpg",
-      "releaseDate": "2015-11-05",
-      "category": ["Live TV"],
-      "genres": ["News", "International"],
-      "tags": ["live", "africa", "news"],
-      "playOptions": [
+      "name": "Haiti",
+      "channels": [
         {
-          "availabilityInfo": {
-            "country": ["US", "CA", "GB", "FR", "BE", "CH"]
-          }
+          "id": "france-2",
+          "title": "France 2 TV",
+          "description": "Haitian general entertainment",
+          "thumbnail": "https://logos-world.net/wp-content/uploads/2023/04/France-2-Logo-2002.png",
+          "streamUrl": "http://51.178.65.238/France2/index.m3u8",
+          "streamFormat": "hls"
         }
-      ],
-      "content": {
-        "dateAdded": "2015-11-05T14:14:54.431Z",
-        "duration": 3600,
-        "captions": [],
-        "videos": [
-          {
-            "url": "https://1927901613.rsc.cdn77.org/1927901613/index.m3u8",
-            "quality": "HD",
-            "videoType": "HLS"
-          }
-        ]
-      }
+      ]
     },
     {
-      "id": "news001",
-      "title": "France 24 Français",
-      "shortDescription": "Chaîne d'information internationale en continu.",
-      "longDescription": "France 24 provides 24/7 international news coverage with reports, analysis, and debates from a French perspective.",
-      "thumbnail": "https://i.imgur.com/0kQKQ0F.png",
-      "releaseDate": "2015-11-05",
-      "category": ["News"],
-      "genres": ["News", "International"],
-      "tags": ["news", "france", "international"],
-      "playOptions": [
+      "name": "English",
+      "channels": [
         {
-          "availabilityInfo": {
-            "country": ["US", "CA", "GB", "FR", "BE", "CH"]
-          }
+          "id": "dieu-tv",
+          "title": "Dieu TV FR",
+          "description": "International Christian Television",
+          "thumbnail": "https://centraltv.fr/wp-content/uploads/2023/06/centraltv.fr-logo.png",
+          "streamUrl": "https://cdn.katapy.io/cache/stream/katapytv/dieu/720.m3u8",
+          "streamFormat": "hls"
         }
-      ],
-      "content": {
-        "dateAdded": "2015-11-05T14:14:54.431Z",
-        "duration": 3600,
-        "captions": [],
-        "videos": [
-          {
-            "url": "https://cdn-euronews.akamaized.net/live/eds/africanews-fr/25050/index.m3u8",
-            "quality": "HD",
-            "videoType": "HLS"
-          }
-        ]
-      }
+      ]
     },
     {
-      "id": "sports001",
-      "title": "beIN Sports XTRA",
-      "shortDescription": "Chaîne sportive internationale offrant football, sports mécaniques, tennis et compétitions mondiales.",
-      "longDescription": "beIN Sports XTRA features international football, motorsports, tennis, and major global competitions.",
-      "thumbnail": "https://i.imgur.com/8Q2xk0F.png",
-      "releaseDate": "2015-11-05",
-      "category": ["Sports"],
-      "genres": ["Sports"],
-      "tags": ["sports", "football", "tennis"],
-      "playOptions": [
+      "name": "French",
+      "channels": [
         {
-          "availabilityInfo": {
-            "country": ["US", "CA", "GB", "FR", "BE", "CH"]
-          }
+          "id": "bein-extra",
+          "title": "BeIN Sport",
+          "description": "Actualités sportives",
+          "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/2/20/Bein_sport_logo.png",
+          "streamUrl": "https://amg01334-beinsportsllc-beinxtra-localnow-kcy6r.amagi.tv/playlist.m3u8",
+          "streamFormat": "hls"
         }
-      ],
-      "content": {
-        "dateAdded": "2015-11-05T14:14:54.431Z",
-        "duration": 3600,
-        "captions": [],
-        "videos": [
-          {
-            "url": "https://bein-xtra-roku.amagi.tv/playlist.m3u8",
-            "quality": "HD",
-            "videoType": "HLS"
-          }
-        ]
-      }
+      ]
     }
   ]
 }
